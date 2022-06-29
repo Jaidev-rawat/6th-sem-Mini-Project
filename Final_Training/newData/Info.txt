@@ -1,0 +1,12 @@
+rawData folder - contains the full raw data collected from the internet.
+
+split_2 folder - contains the raw data splited into three categories - 
+			train - Model is Trained on this data.
+			validate - While training at every epoch the accuracy is being cross validated against this unknown data.
+			test - at last the trained model is checked for accuracy on this data.
+			-- the model is trained only on train data and not on validate and test data, they are kept complete unknown to 
+				model for getting real world accuracy.
+				
+test_net folder - contains the new raw images downloaded just for testing the trained model manually.
+
+
